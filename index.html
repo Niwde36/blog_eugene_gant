@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Blog del Escritor</title>
-    <link rel="stylesheet" type="text/css" href="./style/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Blog de Eugene Gant</title>
+  <link rel="stylesheet" href="./style/styles.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <h1>Blog del Escritor</h1>
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Principal</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-            <li><a href="purpose.html">Propósito</a></li>
-            <li><a href="poems.html">Poemas</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
+  <header>
+    <nav class="nav">
+      <input type="checkbox" name="" id="nav__checkbox" class="nav__checkbox">
+      <label for="nav__checkbox" class="nav__toggle">
+        <!-- menu -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100"  class="menu" title="bars">
+        <path fill="none" d="M0 0h24v24H0z"/>
+        <path d="M21 11H3a1 1 0 0 1 0-2h18a1 1 0 0 1 0 2zm0 4H3a1 1 0 0 1 0-2h18a1 1 0 0 1 0 2zm0 4H3a1 1 0 0 1 0-2h18a1 1 0 0 1 0 2z"/>
+      </svg>
+
+
+      <!-- close -->
+      <svg title="times" xmlns="http://www.w3.org/2000/svg"  width="100" class="close"  
+        viewBox="0 0 16 16"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+        <path class="close" d="M-0 10.94l4.23 -5.68 -3.72 -5.26 1.72 0 1.99 2.8c0.42,0.58 0.7,1.02 0.87,1.33 0.25,-0.38 0.54,-0.79 0.87,-1.22l2.18 -2.91 1.59 0 -3.8 5.2 4.09 5.74 -1.78 0 -2.76 -3.9c-0.16,-0.22 -0.31,-0.44 -0.45,-0.66 -0.24,0.37 -0.42,0.62 -0.52,0.77l-2.77 3.79 -1.74 0z"/>
+
+      </svg>
+      
+
+      </label>
+
+      <ul class="nav__menu">
+        <li class="menu__logo">
+          <img id="logo_img" src="./img/logo_e_g_300px.png" alt="Logo del Blog">
+          <img id="logo__letra" src="./img/logo_letra_300px.png" alt="Eugene Gant">
+        </li>
+        <li><a href="#">Principal</a></li>
+        <li><a href="#">Propósito</a></li>
+        <li><a href="#">Poemas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      
+      
+      
+      
+
     </nav>
-
-    <header>
-        <h2>Bienvenido al Blog del Escritor</h2>
-    </header>
-
-    <section class="content">
-        <!-- Contenido principal del blog -->
-    </section>
-
-    <footer>
-        <p>Blog del Escritor &copy; 2023</p>
-    </footer>
-
-    <script src="./js/scripts.js"></script>
+  </header>
 </body>
 </html>
