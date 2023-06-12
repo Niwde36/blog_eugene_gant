@@ -1,4 +1,5 @@
 :root{
+    --fondo_claro:#FFFFF3;
     --dorado_claro:#F5F093;
     --dorado_medio:#CCBE3E;
     --dorado_oscuro:#9A8E40;
@@ -12,8 +13,8 @@
 }
 
 body{
-    font-family: sans-serif;
-    font-weight: lighter;
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
     color: black;
     background-image: url(https://res.cloudinary.com/dnl44q1wd/image/upload/v1686462623/letras_celu_main_01_pgedju.png);
     height: 100vh;
@@ -127,8 +128,8 @@ main{
 
 .intro{
     margin: 24px 12px 24px 12px;
-    font-size: large;
-    background-color: rgb(248, 255, 230);
+    font-size: x-large;
+    background-color: var(--fondo_claro);
 }
 
 .footer{
@@ -136,5 +137,5 @@ main{
     text-align: center;
     height: 63px;
     color: var(--dorado_claro);
-    padding-top: 27px;
+    padding-top: 21px;
 }
