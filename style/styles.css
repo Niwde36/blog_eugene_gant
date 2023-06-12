@@ -20,8 +20,9 @@ body{
 }
 
 .nav{
-    border-bottom: 1px solid var(--rojo);
-    background-color: #902F43;
+    background-color: var(--rojo);
+    display: flex;
+    padding-top: 12px;
 }
 
 .nav__toggle{
@@ -54,6 +55,9 @@ body{
     gap: 2rem;
     align-items: center;
     margin: 0 1rem 1rem 1rem 1rem;
+    
+    
+
 
 }
 
@@ -75,14 +79,11 @@ body{
 
 .menu__logo {
     height: 51px;
+    justify-content: center;
 }
+
 
 .menu__logo img{
-    height: 80%;
-    margin: 6px;
-}
-
-#logo__letra{
     margin: 6px;
     height: 63%;
 }
@@ -97,4 +98,43 @@ body{
 
 #nav__checkbox:checked ~ label.nav__toggle .menu {
     display: none;
+}
+
+main{
+    width: 100%;
+    align-items: center;
+
+}
+.main__logo img{
+    display: block;
+    height: 90px;
+    margin: 12px auto;
+}
+
+.portada{
+    text-align: center;
+    color: rgb(82, 81, 81);
+    width: 100%;
+    align-content: center;
+}
+
+.title{
+    margin: 12px auto;
+}
+.main_img img{
+    width: 100%;
+}
+
+.intro{
+    margin: 24px 12px 24px 12px;
+    font-size: large;
+    background-color: rgb(248, 255, 230);
+}
+
+.footer{
+    background-color: var(--rojo);
+    text-align: center;
+    height: 63px;
+    color: var(--dorado_claro);
+    padding-top: 27px;
 }
