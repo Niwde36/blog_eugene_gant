@@ -1,25 +1,141 @@
-/* Estilos específicos para la página de contacto */
-
-body {
-    background-color: #f9f9f9;
+:root{
+    --fondo_claro:#FFFFF3;
+    --dorado_claro:#F5F093;
+    --dorado_medio:#CCBE3E;
+    --dorado_oscuro:#9A8E40;
+    --rojo:#902F43;
 }
 
-header {
-    background-image: url(contact-background.jpg);
-    background-size: cover;
-    background-position: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+    color: black;
+    background-image: url(https://res.cloudinary.com/dnl44q1wd/image/upload/v1686462623/letras_celu_main_01_pgedju.png);
+    height: 100vh;
+}
+
+.nav{
+    background-color: var(--rojo);
+    display: flex;
+    padding-top: 12px;
+}
+
+.nav__toggle{
+    position: absolute;
+    cursor: pointer;
+    margin: 0 1rem;
+    right: 0;
+}
+
+.nav__toggle svg{
+    width: 2rem;
+    fill: var(--dorado_claro);
+    
+}
+
+.nav__toggle svg .close{
+    display: none;
+}
+
+.nav__toggle svg .close,.nav__toggle svg .menu{
+    margin-top: 0.3rem;
+}
+
+.nav__checkbox{
+    display: none;
+}
+.nav__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 0 1rem 1rem 1rem 1rem;
+    
+    
+
+
+}
+
+.nav__menu a{
+    text-decoration: none;
+    font-size: large;
+    color: var(--dorado_claro);
+}
+
+.nav__menu li{
+    list-style-type: none;
+    display: none;
+}
+
+.nav__menu li:first-child{
+    margin-right: auto;
+    display: block;
+}
+
+.menu__logo {
+    height: 51px;
+    justify-content: center;
+}
+
+
+.menu__logo img{
+    margin: 6px;
+    height: 63%;
+}
+
+#nav__checkbox:checked ~ ul.nav__menu li {
+    display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .close {
+    display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+    display: none;
+}
+
+main{
+    width: 100%;
+    align-items: center;
+
+}
+.main__logo img{
+    display: block;
+    height: 90px;
+    margin: 12px auto;
+}
+
+.portada{
     text-align: center;
-    padding: 100px 0;
-    color: #8f1a1a;
+    color: rgb(82, 81, 81);
+    width: 100%;
+    align-content: center;
 }
 
-.content {
-    margin: 40px;
+.title{
+    margin: 12px auto;
+}
+.main_img img{
+    width: 100%;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+.intro{
+    margin: 24px 12px 24px 12px;
+    font-size: x-large;
+    background-color: var(--fondo_claro);
+}
+
+.footer{
+    background-color: var(--rojo);
     text-align: center;
-    padding: 20px;
+    height: 63px;
+    color: var(--dorado_claro);
+    padding-top: 21px;
 }
