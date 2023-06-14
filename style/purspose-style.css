@@ -139,3 +139,15 @@ main{
     color: var(--dorado_claro);
     padding-top: 21px;
 }
+
+@media (min-width:940px) {
+    .main_img img{
+        width: 80%;
+    }
+
+    .intro{
+        font-size: xx-large;  
+        width: 80%;    
+        margin: 36px auto; 
+    }
+}

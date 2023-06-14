@@ -139,3 +139,49 @@ main{
     color: var(--dorado_claro);
     padding-top: 21px;
 }
+
+.big_box_poems{
+    width: 100%;
+    text-align: center;
+}
+
+.poems__img img{
+    width: 100%;
+    margin: 24px 0 24px 0;
+}
+
+.menu_up a img{
+    width: 93px;
+    margin: 33px auto;
+}
+
+.poems__menu{
+    margin-bottom: 63px;
+}
+
+.poems__menu a{
+    text-decoration: none;
+    font-size: large;
+}
+
+.big_box_poems p{
+    margin-bottom: 33px;
+    font-size: larger;
+}
+@media (min-width:940px){
+
+   
+    
+    .main_img img{
+        width: 60%;
+    }
+
+    .portada{
+        text-align: center;
+    }
+
+    .intro{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
