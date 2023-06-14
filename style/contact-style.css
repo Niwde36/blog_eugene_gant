@@ -139,3 +139,17 @@ main{
     color: var(--dorado_claro);
     padding-top: 21px;
 }
+
+main{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.whatsapp a{
+    display: inline;
+ }
+
+.whatsapp img{
+    margin: 0 auto;
+}
+
