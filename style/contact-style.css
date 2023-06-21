@@ -145,6 +145,10 @@ main{
     text-align: center;
     align-items: center;
 }
+
+.whatsapp {
+    margin: 24px;
+}
 .whatsapp a{
     display: inline;
  }
@@ -153,3 +157,24 @@ main{
     margin: 0 auto;
 }
 
+.youtube{
+    margin: 24px;
+    font-size: xx-large;
+}
+
+.youtube a{
+    display: inline;
+ }
+
+.youtube img{
+    margin: 0 auto;
+    width: 90px;
+}
+
+.insta{
+    margin: 24px;
+}
+
+.insta img{
+    width: 90px;
+}
