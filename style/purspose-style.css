@@ -87,6 +87,7 @@ body{
 .menu__logo img{
     margin: 6px;
     height: 63%;
+    width: 72%;
 }
 
 #nav__checkbox:checked ~ ul.nav__menu li {
