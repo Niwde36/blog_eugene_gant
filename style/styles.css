@@ -148,6 +148,10 @@ main{
         margin-left: 24px;
     }
 
+    .nav__menu a{
+        font-size: xx-large;
+    }
+
     .title{
         font-size: 42px;
     }
