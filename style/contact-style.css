@@ -179,3 +179,34 @@ main{
 .insta img{
     width: 90px;
 }
+
+@media (min-width:940px){
+
+    .menu__logo img{
+        width: 110%;
+        margin-left: 24px;
+    }
+
+    .nav__menu a{
+        font-size: xx-large;
+    }
+
+    .title{
+        font-size: 42px;
+    }
+
+    .main_img img{
+        width: 80%;
+    }
+
+    .intro{
+        margin: 24px auto;
+        font-size: xx-large;
+        width: 80%;
+        
+    }
+
+    .footer{
+        font-size: xx-large;
+    }
+}

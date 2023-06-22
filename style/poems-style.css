@@ -171,18 +171,56 @@ main{
 }
 @media (min-width:940px){
 
-   
-    
-    .main_img img{
-        width: 60%;
+    .menu__logo img{
+        width: 110%;
+        margin-left: 24px;
     }
 
-    .portada{
-        text-align: center;
+    .nav__menu a{
+        font-size: xx-large;
+    }
+
+    .title{
+        font-size: 42px;
+        
+    }
+
+    .main_img img{
+        width: 85%;
+        margin-bottom: 51px;
+        
     }
 
     .intro{
+        margin: 0 auto;
+        font-size: xx-large;
+        width: 80%;
+        
+    }
+
+    .poems__img img {
+        width: 80%;
+        margin-top: 102px;
+        margin-bottom: 102px;
+    }
+
+    .big_box_poems a{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .big_box_poems{
+        font-size: xx-large;
+    }
+
+    .big_box_poems article{
+        background-color: #FFFFF3;
         width: 60%;
         margin: 0 auto;
+        border-radius: 24px;
+    }
+
+    .footer{
+        font-size: xx-large;
     }
 }
